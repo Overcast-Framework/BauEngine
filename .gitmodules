@@ -1,0 +1,6 @@
+[submodule "vendors/glm"]
+	path = vendors/glm
+	url = https://github.com/g-truc/glm
+[submodule "vendors/DirectXTK12"]
+	path = vendors/DirectXTK12
+	url = https://github.com/microsoft/DirectXTK12.git
