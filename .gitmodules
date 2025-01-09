@@ -4,3 +4,15 @@
 [submodule "vendors/DirectXTK12"]
 	path = vendors/DirectXTK12
 	url = https://github.com/microsoft/DirectXTK12.git
+[submodule "vendors/DirectX-Headers"]
+	path = vendors/DirectX-Headers
+	url = https://github.com/microsoft/DirectX-Headers.git
+[submodule "vendors/glfw"]
+	path = vendors/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "vendors/stb"]
+	path = vendors/stb
+	url = https://github.com/nothings/stb.git
+[submodule "vendors/imgui"]
+	path = vendors/imgui
+	url = https://github.com/ocornut/imgui.git

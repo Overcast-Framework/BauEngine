@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BauEngine">
+      <UniqueIdentifier>{73DD7556-DF47-2ACD-2886-DB72942F0822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BauEngine\Core">
+      <UniqueIdentifier>{AB61623B-972F-5641-80C3-C6676C3032A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BauEngine\Graphics">
+      <UniqueIdentifier>{13771175-FF5A-D2CA-68BB-CC1D54BEBC4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BauEngine\Graphics\D3D12">
+      <UniqueIdentifier>{40502FB9-2C75-7E39-55C0-63C941447D57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BauEngine\BauEngine.h">
+      <Filter>BauEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BauEngine\Core\Application.h">
+      <Filter>BauEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BauEngine\Core\Logger.h">
+      <Filter>BauEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BauEngine\Core\Utils.h">
+      <Filter>BauEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BauEngine\Graphics\D3D12\D3D12Renderer.h">
+      <Filter>BauEngine\Graphics\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BauEngine\Graphics\Mesh.h">
+      <Filter>BauEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BauEngine\Graphics\Renderer.h">
+      <Filter>BauEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BauEngine\Graphics\Vertex.h">
+      <Filter>BauEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bepch.h" />
+    <ClInclude Include="src\BauEngine\Graphics\Texture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BauEngine\Core\Application.cpp">
+      <Filter>BauEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BauEngine\Graphics\D3D12\D3D12Renderer.cpp">
+      <Filter>BauEngine\Graphics\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bepch.cpp" />
+    <ClCompile Include="src\BauEngine\Graphics\Texture.cpp" />
+  </ItemGroup>
+</Project>
